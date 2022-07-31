@@ -1,0 +1,7 @@
+{% extends "common.html" %}
+{% block content %}
+<form action="/send_request" method="post">
+    <input type="text" name="image_path"> 
+    <input type="submit" value="send">
+</form>
+{% endblock %}
